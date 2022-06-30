@@ -6,10 +6,10 @@ import { BiDevices } from "react-icons/bi";
 
 function Learn() {
   return (
-    <div className="w-full h-screen bg-[#78B8A4]">
+    <div className="w-full min-h-screen bg-[#78B8A4] p-4">
       <div className="bg-white max-w-[1064px] mx-auto  rounded-md px-[3rem] py-[4rem]">
         <h3 className="text-3xl py-3 text-center">What You'll Learn</h3>
-        <div className="grid grid-cols-2 py-4 text-[#333]">
+        <div className="grid md:grid-cols-2 py-4 text-[#333]">
           <div className="= py-4 flex gap-[1rem]">
             <AiFillHtml5 size={30} className="text-[#78B8A4] inline-block" />
             <div>
