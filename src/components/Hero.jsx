@@ -2,7 +2,7 @@ import React from "react";
 
 function Hero() {
   return (
-    <div className="w-full h-[calc(80vh-6rem)] grid place-items-center bg-[#78B8A4]">
+    <div className="w-full h-[calc(100vh-6rem)] grid place-items-center bg-[#78B8A4]">
       <div className="max-w-[320px] md:max-w-[580px] mx-auto  text-center">
         <h1 className="text-4xl text-white font-bold mb-[2rem]">
           START YOUR CODING JOURNEY TODAY{" "}

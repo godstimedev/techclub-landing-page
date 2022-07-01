@@ -19,9 +19,8 @@ function Navbar() {
           <li className="text-[#333] px-3">Contact</li>
         </ul>
         <ul className=" hidden md:flex md:items-center">
-          <li className="text-[#333] px-3">Login</li>
           <button className="px-2 bg-[#78B8A4] py-2 rounded-md text-[#fff]">
-            Sign Up
+            Register Now
           </button>
         </ul>
         <div onClick={handleNav} className="block md:hidden">
@@ -44,10 +43,9 @@ function Navbar() {
             <li className="text-[#333] p-3">About Us</li>
             <li className="text-[#333] p-3">Contact</li>
           </ul>
-          <ul className=" ">
-            <li className="text-[#333] p-3">Login</li>
+          <ul className="">
             <button className="px-2 my-3 bg-[#333] py-2 rounded-md text-[#fff]">
-              Sign Up
+              Register Now
             </button>
           </ul>
         </div>
