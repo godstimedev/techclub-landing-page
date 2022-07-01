@@ -7,7 +7,7 @@ import {
   FaReact,
 } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
-// import { BiDevices } from "react-icons/bi";
+import { BiDevices } from "react-icons/bi";
 
 function Learn() {
   return (
@@ -39,7 +39,7 @@ function Learn() {
             </div>
           </div>
           <div className="md:max-w-[90%] py-4 flex justify-around">
-            <FaLaptop size={30} className="text-[#78B8A4] inline-block" />
+            <BiDevices size={30} className="text-[#78B8A4] inline-block" />
             <div className="w-[85%] px-2">
               <h4 className="text-xl font-semibold">
                 RESPONSIVE WEB DEVELOPMENT
