@@ -12,4 +12,14 @@
 
 :root {
   --primary: #78b8a4;
+  --secondary: #f2db77;
+}
+
+.testimonial .slick-arrow.slick-prev,
+.testimonial .slick-arrow.slick-next {
+  /* background: var(--secondary); */
+  height: 40px;
+  width: 40px;
+  color: grey;
+  border-radius: 10px;
 }

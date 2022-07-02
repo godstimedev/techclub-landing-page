@@ -2,6 +2,8 @@ import Hero from "./components/Hero";
 import Interactive from "./components/Interactive";
 import Learn from "./components/Learn";
 import Navbar from "./components/Navbar";
+import Registration from "./components/Registration";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
       <Hero />
       <Learn />
       <Interactive />
+      <Registration />
+      <Testimonial />
     </div>
   );
 }
