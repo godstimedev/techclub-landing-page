@@ -6,7 +6,7 @@ import { BiDevices } from "react-icons/bi";
 function Learn() {
   return (
     <div className="w-full min-h-screen bg-[#78B8A4] p-4 border-b border-gray-500">
-      <div className="bg-white max-w-[1064px] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem]">
+      <div className="bg-white max-w-[1064px] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem] mt-4">
         <h3 className="text-3xl font-bold py-3 text-center">
           What You'll Learn
         </h3>

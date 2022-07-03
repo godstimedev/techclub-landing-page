@@ -9,8 +9,8 @@ function Navbar() {
   };
 
   return (
-    <header className="w-full  shadow-md">
-      <nav className="max-w-[1240px] mx-auto h-24 px-4 flex justify-between items-center">
+    <header className="w-full h-24 sticky shadow-md z-10">
+      <nav className="max-w-[1240px] mx-auto h-[100%] px-4 flex justify-between items-center ">
         <h1 className="text-4xl text-[#78B8A4]">Tech Club</h1>
         <ul className="md:flex hidden">
           <li className="text-[#333] px-3">Home</li>
