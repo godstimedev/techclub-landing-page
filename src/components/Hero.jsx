@@ -9,7 +9,7 @@ function Hero() {
     <div className="w-full  min-h-[calc(100vh-6rem)] grid gap-[2rem] md:gap-0 grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 bg-white py-6">
       <div
         data-aos="fade-up"
-        className="max-w-[320px] md:max-w-[480px] mx-auto flex flex-col md:justify-center text-center"
+        className="max-w-[320px] pt-[2rem] md:pt-0 md:max-w-[480px] mx-auto flex flex-col md:justify-center text-center"
       >
         <h1 className="text-3xl md:text-4xl text-[#78B8A4] font-bold mb-[1rem]">
           START YOUR CODING JOURNEY TODAY{" "}
