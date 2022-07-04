@@ -12,7 +12,6 @@ function App() {
       <Hero />
       <Learn />
       <Interactive />
-      <Registration />
       <Testimonial />
     </div>
   );
