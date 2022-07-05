@@ -24,17 +24,17 @@ function Registration() {
           <input
             type="text"
             placeholder="Your Name"
-            className="my-2 px-3 w-auto h-[5vh] rounded-md border-solid border-[#333] outline-none focus:ring-2 focus:ring-[#333]"
+            className="my-2 py-2 px-3 w-auto h-[5vh] rounded-md border-solid border-[#333] outline-none focus:ring-2 focus:ring-[#333]"
           />
           <label className="text-[#fff] font-bold mt-2">Email:</label>
           <input
-            className=" my-2 px-3 w-auto h-[5vh] rounded-md border-solid outline-none border-[#333] focus:ring-2 focus:ring-[#333]"
+            className=" my-2 py-2 px-3 w-auto h-[5vh] rounded-md border-solid outline-none border-[#333] focus:ring-2 focus:ring-[#333]"
             type="email"
             placeholder="Your Email"
           />
           <label className="text-[#fff] font-bold mt-2">Phone Number:</label>
           <input
-            className=" my-2 px-3 w-auto h-[5vh] rounded-md border-solid border-[#333] outline-none focus:ring-2 focus:ring-[#333]"
+            className=" my-2 py-2 px-3 w-auto h-[5vh] rounded-md border-solid border-[#333] outline-none focus:ring-2 focus:ring-[#333]"
             type="tel"
             placeholder="Your Phone Number"
           />
