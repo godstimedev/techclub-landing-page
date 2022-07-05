@@ -15,11 +15,18 @@
   --secondary: #f2db77;
 }
 
-.testimonial .slick-arrow.slick-prev,
-.testimonial .slick-arrow.slick-next {
-  /* background: var(--secondary); */
-  /* height: 40px;
-  width: 40px;
-  color: grey; */
-  display: none;
+.active {
+  border-bottom: 3px solid var(--primary);
+  padding-bottom: 2px;
+  transition: ease-in;
+  transition-duration: 200ms;
+}
+
+@media (max-width: 768px) {
+  .active {
+    border-bottom: 3px solid var(--secondary);
+    padding-bottom: 2px;
+    transition: ease-in;
+    transition-duration: 200ms;
+  }
 }

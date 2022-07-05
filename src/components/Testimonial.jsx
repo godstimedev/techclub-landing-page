@@ -44,14 +44,14 @@ function Testimonial() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className=" h-screen w-full p-4 md:p-[4rem] "
+      className=" min-h-[70vh] w-full p-4 md:p-[4rem] "
     >
-      <h1 className="text-4xl font-bold text-[#333] text-center my-6">
+      <h1 className="text-4xl font-bold text-[#333] text-center">
         Testimonials
       </h1>
       <div
         data-aos="fade-in"
-        className=" testimonial bg-[#78b8a4] max-w-[100%] md:max-w-[60%] mx-auto text-center rounded-lg mt-[4rem] py-[3rem] px-8"
+        className=" testimonial bg-[#78b8a4] max-w-[100%] md:max-w-[60%] mx-auto text-center rounded-lg mt-[3rem] py-[3rem] px-8"
       >
         <Slider {...settings}>
           <Card img="https://images.unsplash.com/photo-1615109398623-88346a601842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" />

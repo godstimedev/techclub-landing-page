@@ -12,8 +12,10 @@ function Cta() {
         className="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20"
       >
         <h2 className="text-3xl font-extrabold text-[#333]  sm:text-4xl">
-          <span className="block">Want to be millionaire ?</span>
-          <span className="block text-[#F2DB77]">It's today or never.</span>
+          <span className="block">Gain Skills to enter</span>
+          <span className="block text-[#F2DB77]">
+            High-earning and Flexible Careers.
+          </span>
         </h2>
         <div className="lg:mt-0 lg:flex-shrink-0">
           <div className="mt-2 md:mt-0 inline-flex rounded-md shadow">

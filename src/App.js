@@ -1,4 +1,5 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
+import About from "./components/About";
 import Contact from "./components/Contact";
 
 //components
@@ -14,20 +15,20 @@ import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Hero />} />
-        <Route path="/course" element={<Learn />} />
         <Route path="/registration" element={<Registration />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
       </Routes>
       <Learn />
       <Interactive />
       <Testimonial />
       <Cta />
       <Footer />
-    </BrowserRouter>
+    </>
   );
 }
 

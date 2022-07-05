@@ -6,8 +6,8 @@ AOS.init();
 
 function Footer() {
   return (
-    <footer className="bg-[#78B8A4]  pt-4 pb-8 xl:pt-8">
-      <div className="max-w-screen-lg xl:max-w-screen-xl mx-auto px-4 sm:px-6 md:px-8 text-[#333] ">
+    <footer className="h-[70vh] bg-[#78B8A4]  pt-4 pb-8 xl:pt-8">
+      <div className="max-w-screen-lg xl:max-w-screen-xl  mx-auto px-4 sm:px-6 md:px-8 text-[#333] mt-[5rem]">
         <ul
           data-aos="fade-up"
           className="text-lg font-light pb-4 flex flex-wrap justify-center"
@@ -15,7 +15,7 @@ function Footer() {
           <li className="w-1/2 md:w-1/3 lg:w-1/3">
             <div className="text-center">
               <h2 className="text-[#333] font-bold uppercase mb-4">
-                Components
+                Curriculum
               </h2>
               <ul>
                 <li className="mb-2  transition-colors duration-200">

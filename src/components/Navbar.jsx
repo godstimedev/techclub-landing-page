@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 
 function Navbar() {
@@ -12,19 +12,21 @@ function Navbar() {
   return (
     <header className="w-full h-24 sticky shadow-md z-10">
       <nav className="max-w-[1240px] mx-auto h-[100%] px-4 flex justify-between items-center ">
-        <h1 className="text-4xl text-[#78B8A4]">Tech Club</h1>
+        <Link to="/">
+          <h1 className="text-4xl text-[#78B8A4]">Tech Club</h1>
+        </Link>
         <ul className="md:flex hidden">
-          <li className="text-[#333] px-3">
-            <Link to="/">Home</Link>
+          <li className="text-[#333] font-medium px-3">
+            <NavLink to="/">Home</NavLink>
           </li>
-          <li className="text-[#333] px-3">
-            <Link to="course">Course</Link>
+          <li className="text-[#333] font-medium px-3">
+            <NavLink to="course">Course</NavLink>
           </li>
-          <li className="text-[#333] px-3">
-            <Link to="about">About Us</Link>
+          <li className="text-[#333] font-medium px-3">
+            <NavLink to="about">About Us</NavLink>
           </li>
-          <li className="text-[#333] px-3">
-            <Link to="contact">Contact</Link>
+          <li className="text-[#333] font-medium px-3">
+            <NavLink to="contact">Contact</NavLink>
           </li>
         </ul>
         <ul className=" hidden md:flex md:items-center">
@@ -49,15 +51,25 @@ function Navbar() {
           }
         >
           <ul className="">
-            <li className="text-[#333] p-3">Home</li>
-            <li className="text-[#333] p-3">Course</li>
-            <li className="text-[#333] p-3">About Us</li>
-            <li className="text-[#333] p-3">Contact</li>
+            <li className="text-[#333] font-medium p-3">
+              <NavLink to="/">Home</NavLink>
+            </li>
+            <li className="text-[#333] font-medium p-3">
+              <NavLink to="course">Course</NavLink>
+            </li>
+            <li className="text-[#333] font-medium p-3">
+              <NavLink to="about">About Us</NavLink>
+            </li>
+            <li className="text-[#333] font-medium p-3">
+              <NavLink to="contact">Contact</NavLink>
+            </li>
           </ul>
           <ul className="">
-            <button className="py-3 px-6  bg-[#F2DB77] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#333] text-[#333] w-[30%] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
-              Register
-            </button>
+            <Link to="registration">
+              <button className="py-3 px-6  bg-[#F2DB77] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#333] text-[#333] w-[30%] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
+                Register
+              </button>
+            </Link>
           </ul>
         </div>
       </nav>
