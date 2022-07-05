@@ -28,7 +28,7 @@ function Hero() {
         >
           <h1 className="text-3xl md:text-4xl text-[#78B8A4] font-bold mb-[1rem]">
             START YOUR CODING JOURNEY TODAY{" "}
-            <span className="text-[#F2DB77]">FOR FREE!!</span>
+            <span className="text-[#f2db77] ">FOR FREE!!</span>
           </h1>
           <h3 className="text-lg font-medium text-[#78B8A4]">
             GAIN THE SKILLS, KNOWLEDGE AND EXPERIENCE YOU NEED TO GET AHEAD OF

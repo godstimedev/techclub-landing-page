@@ -50,7 +50,7 @@ function Contact() {
           <div className="col-span-2 text-right">
             <button
               type="submit"
-              className="py-2 px-4  bg-[#F2DB77] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333] text-[#333] w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+              className="py-2 px-4  bg-[#FFFBBD] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333] text-[#333] w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
             >
               Send
             </button>

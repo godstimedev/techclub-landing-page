@@ -13,7 +13,7 @@ const Card = ({ img }) => {
       <img
         src={img}
         alt="/"
-        className="w-[100px] mx-auto my-3 h-[100px] rounded-[50%] border-2 border-[#F2DB77] p-2"
+        className="w-[100px] mx-auto my-3 h-[100px] rounded-[50%] border-2 border-[#FFFBBD] p-2"
         imgProps={{ style: { borderRadius: "50%" } }}
       />
       <p className="px-4 text-white">
@@ -22,7 +22,7 @@ const Card = ({ img }) => {
         molestias!
       </p>
       <p className="py-2 text-white">
-        <span className="text-[#F2DB77] font-bold italic">
+        <span className="text-[#FFFBBD] font-bold italic">
           Godstime Agholor
         </span>
         , Web Developer

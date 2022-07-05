@@ -66,7 +66,7 @@ function Navbar() {
           </ul>
           <ul className="">
             <Link to="registration">
-              <button className="py-3 px-6  bg-[#F2DB77] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#333] text-[#333] w-[30%] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
+              <button className="py-3 px-6  bg-[#FFFBBD] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#333] text-[#333] w-[30%] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
                 Register
               </button>
             </Link>
