@@ -17,7 +17,7 @@ function Registration() {
         //   borderRadius: "10px",
         // }}
         data-aos="fade-up"
-        className="bg-[#78b8a4] rounded-lg max-w-[960px] mx-auto"
+        className="bg-[#78b8a4] rounded-lg max-w-[960px] m-auto mt-4"
       >
         <form className="max-w-[480px] mx-auto  p-[4rem] text-[#333] flex flex-col">
           <label className=" text-[#fff] font-bold">Name:</label>

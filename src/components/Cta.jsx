@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
@@ -19,12 +20,14 @@ function Cta() {
         </h2>
         <div className="lg:mt-0 lg:flex-shrink-0">
           <div className="mt-2 md:mt-0 inline-flex rounded-md shadow">
-            <button
-              type="button"
-              className="py-4 px-6  bg-[#F2DB77] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#fff] text-[#333] w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
-            >
-              Get started
-            </button>
+            <Link to="registration">
+              <button
+                type="button"
+                className="py-4 px-6  bg-[#F2DB77] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#fff] text-[#333] w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+              >
+                Get started
+              </button>
+            </Link>
           </div>
         </div>
       </div>
