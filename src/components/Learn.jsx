@@ -5,8 +5,17 @@ import { BiDevices } from "react-icons/bi";
 
 function Learn() {
   return (
-    <div className="w-full min-h-screen bg-[#78B8A4] p-4 border-b border-gray-500">
-      <div className="bg-white max-w-[1064px] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem] mt-4">
+    <div className="w-full min-h-screen bg-[#78B8A4] py-[4rem] p-4 border-b border-gray-500">
+      <div
+        style={{
+          backgroundImage: `url("https://img.freepik.com/free-photo/weathered-gray-concrete-wall-textured-background_53876-102639.jpg?t=st=1656965231~exp=1656965831~hmac=1c2b9e1f255013c30eeba7f01db560d15ab59fd979d50201c6fb29da3d4757ca&w=826")`,
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          // maxHeight: "100%",
+        }}
+        className=" max-w-[1064px] max-h-[100%] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem] mt-4"
+      >
         <h3 className="text-3xl font-bold py-3 text-center">
           What You'll Learn
         </h3>

@@ -1,3 +1,10 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Contact from "./components/Contact";
+
+//components
+
+import Cta from "./components/Cta";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Interactive from "./components/Interactive";
 import Learn from "./components/Learn";
@@ -7,13 +14,20 @@ import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <Navbar />
-      <Hero />
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="/course" element={<Learn />} />
+        <Route path="/registration" element={<Registration />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Learn />
       <Interactive />
       <Testimonial />
-    </div>
+      <Cta />
+      <Footer />
+    </BrowserRouter>
   );
 }
 

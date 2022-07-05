@@ -6,7 +6,15 @@ AOS.init();
 
 function Hero() {
   return (
-    <div className="w-full  min-h-[calc(100vh-6rem)] grid gap-[2rem] md:gap-0 grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2 bg-white py-6">
+    <div
+      style={{
+        backgroundImage: `url("https://img.freepik.com/free-vector/digital-technology-background-with-hexagon-frame-white-tone_53876-117507.jpg?t=st=1656965231~exp=1656965831~hmac=8b91ce57c5522c41c53523f331c9cbe862779c345a4d8769a9c0fcfd7eae16e2&w=826")`,
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+        backgroundSize: "cover",
+      }}
+      className="w-full  min-h-[calc(100vh-6rem)] grid gap-[2rem] md:gap-0 grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2  py-6"
+    >
       <div
         data-aos="fade-up"
         className="max-w-[320px] pt-[2rem] md:pt-0 md:max-w-[480px] mx-auto flex flex-col md:justify-center text-center"
@@ -19,7 +27,7 @@ function Hero() {
           GAIN THE SKILLS, KNOWLEDGE AND EXPERIENCE YOU NEED TO GET AHEAD OF THE
           CURVE!
         </h3>
-        <button className="w-[70%] md:w-[15vw] my-6 mx-auto px-2 bg-[#78B8A4] py-2 rounded-md text-[#fff]">
+        <button className=" mt-[1rem] py-4 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff] w-[50%] md:w-[15vw] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
           Get Started
         </button>
       </div>

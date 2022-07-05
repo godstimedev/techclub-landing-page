@@ -18,8 +18,8 @@
 .testimonial .slick-arrow.slick-prev,
 .testimonial .slick-arrow.slick-next {
   /* background: var(--secondary); */
-  height: 40px;
+  /* height: 40px;
   width: 40px;
-  color: grey;
+  color: grey; */
   display: none;
 }
