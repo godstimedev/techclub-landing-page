@@ -18,6 +18,12 @@ function Cta() {
             High-earning and Flexible Careers.
           </span>
         </h2>
+        <p className="max-w-[560px] text-center text-[#333]">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti
+          ratione voluptas nam, consequuntur beatae, repellat possimus nemo
+          voluptates velit architecto dolore molestiae ab cupiditate at quod id
+          dolores neque aliquid!
+        </p>
         <div className="text-center">
           <div className="mt-3 md:mt-0 inline-flex  rounded-md shadow">
             <Link to="registration">
