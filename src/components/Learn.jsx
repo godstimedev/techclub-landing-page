@@ -12,6 +12,7 @@ function Learn() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          backgroundAttachment: "fixed",
           // maxHeight: "100%",
         }}
         className=" max-w-[1064px] max-h-[100%] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem] mt-4"

@@ -19,6 +19,7 @@ function Hero() {
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
+          // backgroundAttachment: "fixed",
         }}
         className="w-full  min-h-[calc(100vh-6rem)] grid gap-[2rem] md:gap-0 grid-cols-1 grid-rows-2 md:grid-rows-1 md:grid-cols-2  py-6"
       >
