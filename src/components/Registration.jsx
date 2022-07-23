@@ -14,7 +14,7 @@ function Registration() {
         <div className="mb-8 text-3xl font-bold text-center text-[#333] ">
           Register Now!
         </div>
-        <div className="max-w-[480px] mx-auto  px-[4rem] text-[#333] flex flex-col">
+        <div className="max-w-[480px] mx-auto  md:px-[4rem] text-[#333] flex flex-col">
           <label className=" text-[#fff] font-bold">Name:</label>
           <input
             type="text"
