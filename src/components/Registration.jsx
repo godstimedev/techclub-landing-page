@@ -6,44 +6,39 @@ AOS.init();
 
 function Registration() {
   return (
-    <div className="h-[calc(100vh-6rem)] w-full py-6 px-2 md:p-[4rem]">
-      <h1 className="text-center text-3xl font-bold mb-5">Register Now!</h1>
+    <form className="h-[calc(100vh-6rem)] flex items-center w-full space-x-3 p-4">
       <div
-        // style={{
-        //   backgroundImage: `url("https://images.unsplash.com/photo-1471107340929-a87cd0f5b5f3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Ym9vayUyMGFuZCUyMHBlbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60")`,
-        //   backgroundPosition: "center",
-        //   backgroundRepeat: "no-repeat",
-        //   backgroundSize: "100%",
-        //   borderRadius: "10px",
-        // }}
         data-aos="fade-up"
-        className="bg-[#78b8a4] rounded-lg max-w-[960px] m-auto mt-4"
+        className="w-full max-w-2xl px-[4rem] py-[4rem] m-auto mt-4 md:mt-[3rem] bg-[#78B8A4] rounded-lg shadow "
       >
-        <form className="max-w-[480px] mx-auto  p-[4rem] text-[#333] flex flex-col">
+        <div className="mb-8 text-3xl font-bold text-center text-[#333] ">
+          Register Now!
+        </div>
+        <div className="max-w-[480px] mx-auto  px-[4rem] text-[#333] flex flex-col">
           <label className=" text-[#fff] font-bold">Name:</label>
           <input
             type="text"
+            className=" rounded-lg border-transparent flex-1 appearance-none border border-[#333] w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-[#333] focus:border-transparent"
             placeholder="Your Name"
-            className="my-2 py-2 px-3 w-auto h-[5vh] rounded-md border-solid border-[#333] outline-none focus:ring-2 focus:ring-[#333]"
           />
           <label className="text-[#fff] font-bold mt-2">Email:</label>
           <input
-            className=" my-2 py-2 px-3 w-auto h-[5vh] rounded-md border-solid outline-none border-[#333] focus:ring-2 focus:ring-[#333]"
             type="email"
-            placeholder="Your Email"
+            className=" rounded-lg border-transparent flex-1 appearance-none border border-[#333] w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-[#333] focus:border-transparent"
+            placeholder="Your email"
           />
           <label className="text-[#fff] font-bold mt-2">Phone Number:</label>
           <input
-            className=" my-2 py-2 px-3 w-auto h-[5vh] rounded-md border-solid border-[#333] outline-none focus:ring-2 focus:ring-[#333]"
             type="tel"
-            placeholder="Your Phone Number"
+            className=" rounded-lg border-transparent flex-1 appearance-none border border-[#333] w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-[#333] focus:border-transparent"
+            placeholder="Your phone number"
           />
-          <button className="mt-3 px-2 bg-[#333] py-2 rounded-lg text-[#fff] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333]  w-full transition ease-in duration-200 text-center text-base font-semibold">
+          <button className="mt-4 px-2 bg-[#333] py-2 rounded-lg text-[#fff] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333]  w-full transition ease-in duration-200 text-center text-base font-semibold">
             Register
           </button>
-        </form>
+        </div>
       </div>
-    </div>
+    </form>
   );
 }
 

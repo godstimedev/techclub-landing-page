@@ -5,9 +5,12 @@ import Testimonial from "./Testimonial";
 import Cta from "./Cta";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
+// img
+import Illustration from "../assets/illustration.svg";
 AOS.init();
 
 function Hero() {
@@ -36,21 +39,23 @@ function Hero() {
             THE CURVE!
           </h3>
           <Link to="registration">
-            <button className=" mt-[1rem] py-4 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff] w-[50%] md:w-[15vw] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
+            <motion.button className=" mt-[1rem] py-4 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff] w-[50%] md:w-[15vw] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
               Get Started
-            </button>
+            </motion.button>
           </Link>
         </div>
         <div
           data-aos="fade-down"
-          style={{
-            backgroundImage: `url("https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=740&t=st=1656877266~exp=1656877866~hmac=4b2dcbc5bc45899fe0bd561ad29a6f444628ded32c012d35174331bc59d652cc")`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "100%",
-          }}
-          className=" w-[80%] h-[90%] my-auto mx-auto"
-        ></div>
+          // style={{
+          //   backgroundImage: `url("https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=740&t=st=1656877266~exp=1656877866~hmac=4b2dcbc5bc45899fe0bd561ad29a6f444628ded32c012d35174331bc59d652cc")`,
+          //   backgroundPosition: "center",
+          //   backgroundRepeat: "no-repeat",
+          //   backgroundSize: "100%",
+          // }}
+          className=" w-[80%]  my-auto mx-auto"
+        >
+          <img src={Illustration} alt="/" />
+        </div>
       </div>
       <Learn />
       <Interactive />
