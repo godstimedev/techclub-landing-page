@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Logo from "../assets/TECH-LOGO.png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
@@ -13,7 +14,7 @@ function Navbar() {
     <header className="w-full h-24 sticky shadow-md z-10">
       <nav className="max-w-[1240px] mx-auto h-[100%] px-4 flex justify-between items-center ">
         <Link to="/">
-          <h1 className="text-4xl text-[#78B8A4]">Tech Club</h1>
+          <img src={Logo} alt="/" className="w-[60px] " />
         </Link>
         <ul className="md:flex hidden">
           <li className="text-[#333] font-medium px-3">
