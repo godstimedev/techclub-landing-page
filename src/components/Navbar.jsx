@@ -14,7 +14,7 @@ function Navbar() {
     <header className="w-full h-24 sticky shadow-md z-10">
       <nav className="max-w-[1240px] mx-auto h-[100%] px-4 flex justify-between items-center ">
         <Link to="/">
-          <img src={Logo} alt="/" className="w-[60px] " />
+          <img src={Logo} alt="/" className="w-[60px] md:w-[75px]" />
         </Link>
         <ul className="md:flex hidden">
           <li className="text-[#333] font-medium px-3">
