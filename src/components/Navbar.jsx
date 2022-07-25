@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
-import Logo from "../assets/logo-green.png";
+import Logo from "../assets/logo.png";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
