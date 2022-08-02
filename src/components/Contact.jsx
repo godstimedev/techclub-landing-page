@@ -2,6 +2,7 @@ import axios from 'axios';
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { toast } from 'react-toastify';
+import { contactMessageUrl } from '../routes/api-routes';
 function Contact() {
 	const [contactMessageDetails, setContactMessageDetails] = React.useState({
 		name: '',
@@ -19,7 +20,7 @@ function Contact() {
 		e.preventDefault();
 		try {
 			const { data } = await axios.post(
-				'http://localhost:8001/api/contact-message',
+				contactMessageUrl,
 				{ ...contactMessageDetails },
 				{ headers: { Accept: 'application/json' } }
 			);
