@@ -55,12 +55,12 @@ function Navbar() {
 						<li className="text-[#333] font-medium p-3">
 							<NavLink to="/">Home</NavLink>
 						</li>
-						<li className="text-[#333] font-medium p-3">
+						{/* <li className="text-[#333] font-medium p-3">
 							<NavLink to="course">Course</NavLink>
 						</li>
 						<li className="text-[#333] font-medium p-3">
 							<NavLink to="about">About Us</NavLink>
-						</li>
+						</li> */}
 						<li className="text-[#333] font-medium p-3">
 							<NavLink to="contact">Contact</NavLink>
 						</li>

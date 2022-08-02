@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import axios from 'axios';
+import { getTestimonialsUrl } from '../routes/api-routes';
 
 const Card = ({ photo_url, title, name, content }) => {
 	return (
@@ -13,7 +14,7 @@ const Card = ({ photo_url, title, name, content }) => {
 				className="w-[100px] mx-auto my-3 h-[100px] rounded-[50%] border-2 border-[#FFFBBD] p-2"
 				// imgProps={{ style: { borderRadius: '50%' } }}
 			/>
-			<p className="px-4 text-white">{content}</p>
+			<div DangerouslySetInnerHTML={{ __html: content }} />
 			<p className="py-2 text-white">
 				<span className="text-[#FFFBBD] font-bold italic">{name}</span>, {title}
 			</p>
@@ -29,9 +30,7 @@ function Testimonial() {
 	const [testimonials, setTestimonials] = useState([]);
 	const getTestimonials = async () => {
 		try {
-			const { data } = await axios.get(
-				'http://localhost:8001/api/testimonials'
-			);
+			const { data } = await axios.get(getTestimonialsUrl);
 			setTestimonials(data?.data);
 		} catch (error) {
 			console.error(error);

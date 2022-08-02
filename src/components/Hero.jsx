@@ -3,7 +3,6 @@ import React from 'react';
 import Learn from './Learn';
 import Testimonial from './Testimonial';
 import Cta from './Cta';
-import Footer from './Footer';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 

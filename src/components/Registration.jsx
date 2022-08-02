@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
+import { registerUserUrl } from '../routes/api-routes';
 // ..
 
 function Registration() {
@@ -21,7 +22,7 @@ function Registration() {
 		e.preventDefault();
 		try {
 			const { data } = await axios.post(
-				'http://localhost:8001/api/register',
+				registerUserUrl,
 				{ ...userDetails },
 				{ headers: { Accept: 'application/json' } }
 			);
