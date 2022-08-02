@@ -3,8 +3,10 @@ import React from 'react';
 import Learn from './Learn';
 import Testimonial from './Testimonial';
 import Cta from './Cta';
+// import Footer from "./Footer";
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import background from '../assets/hero-bg.jpg';
 
 import Illustration from '../assets/illustration.svg';
 
@@ -13,7 +15,7 @@ function Hero() {
 		<>
 			<div
 				style={{
-					backgroundImage: `url("https://img.freepik.com/free-vector/digital-technology-background-with-hexagon-frame-white-tone_53876-117507.jpg?t=st=1656965231~exp=1656965831~hmac=8b91ce57c5522c41c53523f331c9cbe862779c345a4d8769a9c0fcfd7eae16e2&w=826")`,
+					backgroundImage: `url(${background})`,
 					backgroundPosition: 'center',
 					backgroundRepeat: 'no-repeat',
 					backgroundSize: 'cover',
@@ -39,16 +41,7 @@ function Hero() {
 						</motion.button>
 					</Link>
 				</div>
-				<div
-					data-aos="fade-down"
-					// style={{
-					//   backgroundImage: `url("https://img.freepik.com/free-vector/programming-concept-illustration_114360-1351.jpg?w=740&t=st=1656877266~exp=1656877866~hmac=4b2dcbc5bc45899fe0bd561ad29a6f444628ded32c012d35174331bc59d652cc")`,
-					//   backgroundPosition: "center",
-					//   backgroundRepeat: "no-repeat",
-					//   backgroundSize: "100%",
-					// }}
-					className=" w-[80%]  my-auto mx-auto"
-				>
+				<div data-aos="fade-down" className=" w-[80%]  my-auto mx-auto">
 					<img src={Illustration} alt="/" />
 				</div>
 			</div>

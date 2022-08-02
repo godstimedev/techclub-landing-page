@@ -3,17 +3,18 @@ import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaPaintBrush, FaReact } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { BiDevices } from "react-icons/bi";
+import background from "../assets/learn-bg.jpg";
 
 function Learn() {
   return (
     <div className="w-full min-h-screen bg-[#78B8A4] py-[4rem] p-4 border-b border-gray-500">
       <div
         style={{
-          backgroundImage: `url("https://img.freepik.com/free-photo/weathered-gray-concrete-wall-textured-background_53876-102639.jpg?t=st=1656965231~exp=1656965831~hmac=1c2b9e1f255013c30eeba7f01db560d15ab59fd979d50201c6fb29da3d4757ca&w=826")`,
+          backgroundImage: `url(${background})`,
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
           backgroundSize: "100% 100%",
-          // backgroundAttachment: "fixed",
+          backgroundAttachment: "fixed",
           // maxHeight: "100%",
         }}
         className=" max-w-[1064px] max-h-[100%] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem] mt-4"
@@ -65,7 +66,7 @@ function Learn() {
             <div className="w-[85%] pt-2 px-2">
               <h4 className="text-xl font-semibold">JAVASCRIPT</h4>
               <p>
-                Learn the basics of the web's most popular programming language
+                Learn the basics of the web's most popular programming language.
               </p>
             </div>
           </div>
@@ -99,7 +100,9 @@ function Learn() {
             </motion.div>
             <div className="w-[85%] pt-2 px-2">
               <h4 className="text-xl font-semibold">CSS FRAMEWORKS</h4>
-              <p>Learn the basic building blocks that go into every website.</p>
+              <p>
+                Learn about libraries allowing for easier web styling using CSS.
+              </p>
             </div>
           </div>
           <div
@@ -114,7 +117,10 @@ function Learn() {
             </motion.div>
             <div className="w-[85%] pt-2 px-2">
               <h4 className="text-xl font-semibold">REACT JS</h4>
-              <p>Learn the basic building blocks that go into every website.</p>
+              <p>
+                Learn about Javascript library used for building user
+                interfaces.
+              </p>
             </div>
           </div>
         </div>
