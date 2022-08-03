@@ -22,6 +22,9 @@
   transition-duration: 200ms;
 }
 
+.Waveform-module_container__kGWZq{
+  margin: auto;
+}
 @media (max-width: 768px) {
   .active {
     border-bottom: 3px solid #fffbbd;
