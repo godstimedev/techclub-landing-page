@@ -14,7 +14,11 @@ const Card = ({ photo_url, title, name, content }) => {
 				alt="/"
 				className="w-[100px] mx-auto my-3 h-[100px] rounded-[50%] border-2 border-[#FFFBBD] p-2"
 			/>
-			<div DangerouslySetInnerHTML={{ __html: content }} />
+
+			<div
+				dangerouslySetInnerHTML={{ __html: content }}
+				className="text-white"
+			/>
 			<p className="py-2 text-white">
 				<span className="text-[#FFFBBD] font-bold italic">{name}</span>, {title}
 			</p>
