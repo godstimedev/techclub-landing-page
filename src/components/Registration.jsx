@@ -4,6 +4,7 @@ import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import { registerUserUrl } from '../routes/api-routes';
 // ..
+import { Waveform } from '@uiball/loaders';
 
 function Registration() {
 	const history = useNavigate();
@@ -13,6 +14,7 @@ function Registration() {
 		phone_number: '',
 	});
 
+	const [loading, setLoading] = useState(false);
 	const [errors, setErrors] = useState({});
 	const handleInputChange = (event) => {
 		const { name, value } = event.target;
@@ -20,6 +22,7 @@ function Registration() {
 	};
 	const handleSignup = async (e) => {
 		e.preventDefault();
+		setLoading(true);
 		try {
 			const { data } = await axios.post(
 				registerUserUrl,
@@ -27,8 +30,10 @@ function Registration() {
 				{ headers: { Accept: 'application/json' } }
 			);
 			toast.success(data?.message);
+			setLoading(false);
 			history('/');
 		} catch (error) {
+			setLoading(false);
 			setErrors(error?.response?.data?.errors);
 			console.log(error);
 		}
@@ -82,8 +87,24 @@ function Registration() {
 								{errors?.phone_number}
 							</span>
 						)}
-						<button className="mt-4 px-2 bg-[#333] py-2 rounded-lg text-[#fff] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333]  w-full transition ease-in duration-200 text-center text-base font-semibold">
-							Register
+						<button
+							className={`mt-4 px-2 ${
+								loading ? 'bg-[#fff]' : 'bg-[#333]'
+							} py-2 rounded-lg text-[#fff] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333]  w-full transition ease-in duration-200 text-center text-base font-semibold`}
+						>
+							{loading ? (
+								<div className="text-black text-center">
+									<Waveform
+										size={25}
+										lineWeight={3.5}
+										speed={1}
+										color="black"
+									/>
+									{/* Please Wait */}
+								</div>
+							) : (
+								'Register'
+							)}
 						</button>
 					</div>
 				</div>

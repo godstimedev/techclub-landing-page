@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import axios from 'axios';
+import background from '../assets/test-bg.jpg';
 import { getTestimonialsUrl } from '../routes/api-routes';
 
 const Card = ({ photo_url, title, name, content }) => {
@@ -12,7 +13,6 @@ const Card = ({ photo_url, title, name, content }) => {
 				src={photo_url}
 				alt="/"
 				className="w-[100px] mx-auto my-3 h-[100px] rounded-[50%] border-2 border-[#FFFBBD] p-2"
-				// imgProps={{ style: { borderRadius: '50%' } }}
 			/>
 			<div DangerouslySetInnerHTML={{ __html: content }} />
 			<p className="py-2 text-white">
@@ -43,14 +43,14 @@ function Testimonial() {
 	return (
 		<div
 			style={{
-				backgroundImage: `url("https://img.freepik.com/free-photo/gray-abstract-wireframe-technology-background_53876-101941.jpg?t=st=1656957507~exp=1656958107~hmac=aca311cef551b0232b1d57a771a788ecbc4da5d6f5da0c103e09914902f514ef&w=826")`,
+				backgroundImage: `url(${background})`,
 				backgroundPosition: 'center',
 				backgroundRepeat: 'no-repeat',
 				backgroundSize: 'cover',
 			}}
 			className=" min-h-[70vh] w-full p-4 md:p-[4rem] "
 		>
-			<h1 className="text-4xl font-bold text-[#333] text-center">
+			<h1 className="text-4xl font-bold text-[#333] text-center pt-6">
 				Testimonials
 			</h1>
 			<div
