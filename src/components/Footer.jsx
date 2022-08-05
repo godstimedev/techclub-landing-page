@@ -10,22 +10,34 @@ function Footer() {
             <div className="w-11/12 xl:w-2/6 mx-auto lg:mx-0 xl:mx-0 mb-6 lg:mb-0 xl:mb-0 ">
               <ul className="xl:flex lg:flex md:flex sm:flex items-center justify-between text-center">
                 <li className="text-white hover:text-[#333] text-base mb-4 sm:mb-0 ">
-                  <Link className="focus:outline-none focus:underline" to="#">
+                  <Link
+                    className="focus:outline-none focus:underline font-medium text-sm"
+                    to="#"
+                  >
                     FAQ
                   </Link>
                 </li>
                 <li className="text-white hover:text-[#333] text-base mb-4 sm:mb-0">
-                  <Link className="focus:outline-none focus:underline" to="#">
+                  <Link
+                    className="focus:outline-none focus:underline font-medium text-sm"
+                    to="#"
+                  >
                     CURRICULUM
                   </Link>
                 </li>
                 <li className="text-white hover:text-[#333] text-base mb-4 sm:mb-0">
-                  <Link className="focus:outline-none focus:underline" to="#">
+                  <Link
+                    className="focus:outline-none focus:underline font-medium text-sm"
+                    to="#"
+                  >
                     ABOUT US
                   </Link>
                 </li>
                 <li className="text-white hover:text-[#333] text-base mb-4 sm:mb-0">
-                  <Link className="focus:outline-none focus:underline" to="#">
+                  <Link
+                    className="focus:outline-none focus:underline font-medium text-sm"
+                    to="/contact"
+                  >
                     CONTACT
                   </Link>
                 </li>
@@ -35,7 +47,7 @@ function Footer() {
           <div className="  text-center  mx-auto lg:mx-0 xl:mx-0 mb-6 xl:mb-0">
             <p
               tabIndex="0"
-              className="focus:outline-none text-white  dark:text-white text-base"
+              className="focus:outline-none text-white  dark:text-white font-semibold text-sm"
             >
               Powered by: RCCG TODP TECH CLUB
             </p>

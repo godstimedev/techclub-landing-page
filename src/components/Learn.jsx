@@ -3,21 +3,21 @@ import { motion } from "framer-motion";
 import { FaHtml5, FaCss3Alt, FaPaintBrush, FaReact } from "react-icons/fa";
 import { SiJavascript } from "react-icons/si";
 import { BiDevices } from "react-icons/bi";
-import background from "../assets/learn-bg.jpg";
+// import background from "../assets/learn-bg.jpg";
 
 function Learn() {
   return (
     <div className="w-full min-h-screen bg-[#78B8A4] py-[4rem] p-4 border-b border-gray-500">
       <div
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "100% 100%",
-          backgroundAttachment: "fixed",
-          // maxHeight: "100%",
-        }}
-        className=" max-w-[1064px] max-h-[100%] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem] mt-4"
+        // style={{
+        //   backgroundImage: `url(https://media.istockphoto.com/vectors/seamless-dotted-copybook-sheet-vector-id937338082?k=20&m=937338082&s=612x612&w=0&h=NBbMlJm4ZmQLV0CJdQrUPOMIBuGj8E590AjUN3F_hsg=)`,
+        //   backgroundPosition: "center",
+        //   backgroundRepeat: "no-repeat",
+        //   backgroundSize: "100% 100%",
+        //   backgroundAttachment: "fixed",
+        //   // maxHeight: "100%",
+        // }}
+        className="bg-[#448370] shadow-xl max-w-[1064px] max-h-[100%] mx-auto  rounded-md px-2 md:px-[3rem] py-[4rem] mt-4"
       >
         <h3 className="text-3xl font-bold py-3 text-center">
           What You'll Learn
