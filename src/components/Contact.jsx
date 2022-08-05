@@ -40,12 +40,12 @@ function Contact() {
   };
   return (
     <form
-      className="h-[calc(100vh-6rem)] flex items-center w-full space-x-3 p-4"
+      className="min-h-[calc(80vh-6rem)] flex items-center w-full space-x-3 p-4"
       onSubmit={handleContactMessageRequest}
     >
       <div
         data-aos="fade-up"
-        className="w-full max-w-2xl px-[4rem] py-[4rem] m-auto mt-4 md:mt-[3rem] bg-[#78B8A4] rounded-lg shadow "
+        className="w-full max-w-2xl px-[4rem] py-[4rem] m-auto my-4 md:my-[2rem] bg-[#78B8A4] rounded-lg shadow "
       >
         <div className="mb-8 text-3xl font-bold text-center text-[#333] ">
           Contact us !
