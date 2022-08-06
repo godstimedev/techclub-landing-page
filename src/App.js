@@ -13,6 +13,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Footer from './components/Footer';
+import PreRegister from './components/PreRegister';
 
 function App() {
 	AOS.init();
@@ -26,6 +27,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Hero />} />
 				<Route path="/registration" element={<Registration />} />
+				<Route path="/2022-bootcamp" element={<PreRegister />} />
 				<Route path="/contact" element={<Contact />} />
 				<Route path="/about" element={<About />} />
 			</Routes>

@@ -1,10 +1,14 @@
 function About() {
 	return (
-		<div className="h-[calc(100vh-6rem)] w-full py-6 px-2 md:p-[4rem]">
+		<div className="  w-full py-6 px-2 md:p-[4rem]">
 			<div data-aos="fade-up" className="max-w-[960px] mx-auto px-4">
 				<h1 className="text-center text-3xl font-bold mb-5 text-[#333]">
 					About <span className="text-[#78b8a4]">Us</span>
 				</h1>
+				<p className="first-letter:ml-[20px] py-6 leading-6">
+					Our Mission is to help train and raise excellent teenagers in the
+					field of technology.
+				</p>
 				<p className="first-letter:ml-[20px] py-6 leading-6">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic, odit
 					repellendus! Nostrum nihil, ipsam velit, sint perspiciatis est ea
