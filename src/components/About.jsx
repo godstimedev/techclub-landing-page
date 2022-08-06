@@ -1,6 +1,6 @@
 function About() {
 	return (
-		<div className="  w-full py-6 px-2 md:p-[4rem]">
+		<div className="min-h-[calc(80vh-4rem)]  w-full py-6 px-2 md:p-[4rem]">
 			<div data-aos="fade-up" className="max-w-[960px] mx-auto px-4">
 				<h1 className="text-center text-3xl font-bold mb-5 text-[#333]">
 					About <span className="text-[#78b8a4]">Us</span>
