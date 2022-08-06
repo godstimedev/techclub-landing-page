@@ -61,7 +61,7 @@ function Registration() {
 							placeholder="Your Name"
 						/>
 						{errors?.name && (
-							<span className=" text-[red] font-bold">{errors?.name}</span>
+							<span className=" text-[000] font-bold">{errors?.name}</span>
 						)}
 						<label className="text-[#fff] font-bold mt-2">Email:</label>
 						<input
@@ -72,7 +72,7 @@ function Registration() {
 							placeholder="Your email"
 						/>
 						{errors?.email && (
-							<span className=" text-[red] font-bold">{errors?.email}</span>
+							<span className=" text-[000] font-bold">{errors?.email}</span>
 						)}
 						<label className="text-[#fff] font-bold mt-2">Phone Number:</label>
 						<input
@@ -83,7 +83,7 @@ function Registration() {
 							placeholder="Your phone number"
 						/>
 						{errors?.phone_number && (
-							<span className=" text-[red] font-bold">
+							<span className=" text-[000] font-bold">
 								{errors?.phone_number}
 							</span>
 						)}

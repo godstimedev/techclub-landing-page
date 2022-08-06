@@ -62,7 +62,7 @@ function Contact() {
 								onChange={(event) => handleInputChange(event)}
 							/>
 							{errors?.name && (
-								<span className=" text-[red] font-bold">{errors?.name}</span>
+								<span className=" text-[000] font-bold">{errors?.name}</span>
 							)}
 						</div>
 					</div>
@@ -77,7 +77,7 @@ function Contact() {
 								onChange={(event) => handleInputChange(event)}
 							/>
 							{errors?.email && (
-								<span className=" text-[red] font-bold">{errors?.email}</span>
+								<span className=" text-[#000] font-bold">{errors?.email}</span>
 							)}
 						</div>
 					</div>
@@ -94,7 +94,7 @@ function Contact() {
 							></textarea>
 						</label>
 						{errors?.message && (
-							<span className=" text-[red] font-bold">{errors?.message}</span>
+							<span className=" text-[000] font-bold">{errors?.message}</span>
 						)}
 					</div>
 					<div className="col-span-2 text-right">

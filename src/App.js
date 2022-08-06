@@ -22,7 +22,7 @@ function App() {
 		easing: 'ease', // default easing for AOS animations
 	});
 	return (
-		<>
+		<div style={{ overflowX: 'hidden' }}>
 			<Navbar />
 			<Routes>
 				<Route path="/" element={<Hero />} />
@@ -33,7 +33,7 @@ function App() {
 			</Routes>
 			<ToastContainer />
 			<Footer />
-		</>
+		</div>
 	);
 }
 
