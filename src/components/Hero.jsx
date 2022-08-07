@@ -35,7 +35,8 @@ function Hero() {
 						GAIN THE SKILLS, KNOWLEDGE AND EXPERIENCE YOU NEED TO GET AHEAD OF
 						THE CURVE!
 					</h3>
-					<Link to="registration">
+					<Link to="2022-bootcamp">
+						{/* <Link to="registration"> */}
 						<motion.button className=" mt-[1rem] py-4 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff] w-[50%] md:w-[15vw] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
 							Get Started
 						</motion.button>

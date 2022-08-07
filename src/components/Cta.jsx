@@ -23,7 +23,8 @@ function Cta() {
 					</div>
 
 					<div className="mt-3 md:mt-0 inline-flex  rounded-md shadow">
-						<Link to="registration">
+						<Link to="2022-bootcamp">
+							{/* <Link to="registration"> */}
 							<button
 								type="button"
 								className="py-4 px-6  bg-[#448370] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#fff] text-[#fff] w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
