@@ -31,11 +31,19 @@ function Navbar() {
 					</li>
 				</ul>
 				<ul className=" hidden md:flex md:items-center">
-					<Link to="registration">
+				{/*	<Link to="registration">
 						<button className=" py-3 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff]  mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none    rounded-lg">
 							Register
 						</button>
+					</Link>  */}
+
+                                          <Link to="2022-bootcamp">
+						<button className=" py-3 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff]  mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none    rounded-lg">
+							Pre Register
+						</button>
 					</Link>
+
+
 				</ul>
 				<div onClick={handleNav} className="block md:hidden">
 					{nav ? (
@@ -66,11 +74,18 @@ function Navbar() {
 						</li>
 					</ul>
 					<ul className="" onClick={handleNav}>
-						<Link to="registration">
-							<button className="py-3 px-6  bg-[#FFFBBD] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#333] text-[#333] w-[30%] mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none   rounded-lg">
-								Register
-							</button>
-						</Link>
+						{/*	<Link to="registration">
+						<button className=" py-3 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff]  mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none    rounded-lg">
+							Register
+						</button>
+					</Link>  */}
+
+                                          <Link to="2022-bootcamp">
+						<button className=" py-3 px-6  bg-[#78B8A4] hover:opacity-80 focus:ring-[#333] focus:ring-offset-[#78B8A4] text-[#fff]  mx-auto transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none    rounded-lg">
+							Pre Register
+						</button>
+					</Link>
+
 					</ul>
 				</div>
 			</nav>
