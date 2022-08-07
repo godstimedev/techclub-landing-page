@@ -89,8 +89,8 @@ function Registration() {
 						)}
 						<button
 							className={`mt-4 px-2 ${
-								loading ? 'bg-[#fff]' : 'bg-[#333]'
-							} py-2 rounded-lg text-[#fff] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333]  w-full transition ease-in duration-200 text-center text-base font-semibold`}
+								loading ? 'bg-[#fff]' : 'bg-[#FFFBBD]'
+							} py-2 rounded-lg text-[#000] hover:opacity-90 focus:ring-[#333] focus:ring-offset-[#333]  w-full transition ease-in duration-200 text-center text-base font-semibold`}
 						>
 							{loading ? (
 								<div className="text-black text-center">
